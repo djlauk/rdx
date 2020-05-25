@@ -14,14 +14,14 @@ Welcome to the documentation of the rdx project. Here's how it is organized:
 The tutorials are especially beginner friendly. Experienced JavaScript developers may want to just skim over them or even skip them alltogether. No offense taken ;-)
 
 - [Getting started: Your very first web application with rdx](tut-01-first-app-rdx.md)
-- Your first model: Creating a simple counter with rdx
-- Going asynchronous: Creating a countdown timer with rdx
-- Connecting to remote APIs: Creating a todo list application with rdx
+- Your first model: Creating a counter with rdx-model
+- Going asynchronous: Creating a countdown timer with rdx-model
+- Connecting to remote APIs: Creating a todo list application with rdx-model
 
 ## How to guides
 
 - How to utilize the `connect(...)` mixin with web components
-- How to use reselect library for memoization
+- How to use the reselect library for memoization
 - How to use the Redux dev tools for time travel debugging
 - How to integrate routing into rdx with @captaincodeman/router
 - How to test a reducer with mocha and chai
@@ -29,8 +29,8 @@ The tutorials are especially beginner friendly. Experienced JavaScript developer
 
 ## Background information
 
-- Why should you use a state manager for your application?
-- The base architecture of rdx
+- [Why should you use a state manager for your application?](./background-why-state-manager.md)
+- [The architecture of rdx](./background-rdx-architecture.md)
 - Comparing Redux and rdx
 - Why bother with memoization and selectors?
 
